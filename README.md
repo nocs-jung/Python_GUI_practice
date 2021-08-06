@@ -1,2 +1,1 @@
-# Python_GUI_practice
-Python_GUI_practice
+Python_GUI를 제작하기 위한 기본 Widget사용법
