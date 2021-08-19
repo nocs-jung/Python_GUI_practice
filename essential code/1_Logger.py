@@ -39,3 +39,7 @@ file_handler.setFormatter(formatter)
 #자식 logger는 부모 logger와 관련된 메세지를 전파(propagate)한다
 #이러한 연결을 원하지 않는다면 logger의 propagate attribute를 False로 설정
 logger.propagate = False
+
+#logger에서 생성한 handler 추가하기
+logger.addHandler(stream_handler)
+logger.addHandler(file_handler)
